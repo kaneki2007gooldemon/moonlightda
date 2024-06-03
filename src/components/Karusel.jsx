@@ -4,7 +4,6 @@ import styled from 'styled-components'
 const Text = styled.div`
 padding-left:98px;
 
-
 `
 const H1 = styled.p`
 font-size: 32px;
@@ -37,6 +36,7 @@ function Karusel() {
         <P>Легендарные продукты,<br/>завоевавшие любовь<br/>наших клиентов</P>
         <Button1>Смотреть все</Button1>
     </Text>
+    
   ) 
 }
 
