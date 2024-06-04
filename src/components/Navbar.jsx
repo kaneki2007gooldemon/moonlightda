@@ -51,11 +51,14 @@ const Imgtelo = styled.div`
 
 `
 const H1 = styled.h1`
-
-
+font-family: Raleway;
+font-weight: 600;
 `
 const P1 = styled.p`
 padding-left:35px;
+font-family: Raleway;
+font-weight: 400;
+font-size: 16px;
 
 
 `
@@ -68,18 +71,35 @@ const Img2 = styled.div`
     
 `
 const Button1 = styled.button`
- height: 41px;
-    width: 141px;
-    color: black;
-    font-size: 16px;
-    font-weight: 100;
-    border-radius: 1px;
-    border-width: 1px;
-    border-color: #B3BAC1;
-    background-color: transparent;
-    margin-top: 40px;
+height: 41px;
+width: 141px;
+color: black;
+font-size: 16px;
+font-weight: 100;
+border-radius: 1px;
+border-width: 1px;
+border-color: #B3BAC1;
+background-color: transparent;
+margin-top: 40px;
+`
+const H2 = styled.h2`
+padding-top: 35px;
+font-family: Raleway;
+font-weight: 500;
+font-size: 58px;
 `
 
+const P3 = styled.p`
+padding-top: 18px;
+font-weight: 400;
+font-size: 18px;
+font-family: Raleway;
+`
+const P2 = styled.p`
+font-family: Raleway;
+font-weight: 500;
+font-size: 16px;
+`
 
 const Navbar = () => {
   return (
@@ -99,16 +119,16 @@ const Navbar = () => {
       <Afterheader>
           <Imglico>
               <Img2><img src={lico} alt=""/></Img2>
-              <p>Уход для лица</p>
+              <P2>Уход для лица</P2>
           </Imglico>
           <TextAL>
-              <h1>MOONLIGHT</h1>
-              <p>Натуральная косметика<br/>для бережного ухода за кожей</p>
+              <H2>MOONLIGHT</H2>
+              <P3>Натуральная косметика<br/>для бережного ухода за кожей</P3>
               <Button1>Подробнее</Button1>
           </TextAL>
           <Imgtelo>
                <Img2><img src={telo} alt=""/></Img2>
-               <p>Уход для тела</p>
+               <P2>Уход для тела</P2>
           </Imgtelo>
       </Afterheader>
     </Block1>

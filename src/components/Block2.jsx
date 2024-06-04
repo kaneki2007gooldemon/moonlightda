@@ -17,14 +17,15 @@ padding-top: 150px;
 `
 const H1 = styled.h1`
 font-family: Raleway;
-font-weight: 500;
+font-weight: 600;
 font-size: 32px;
 padding-bottom: 30px;
 
 `
 const P = styled.p`
+font-family: Raleway;
 padding-bottom: 40px;
-font-weight: 400;
+font-weight: 500;
 font-size: 18px;
 `
 const Button = styled.button`
@@ -32,12 +33,13 @@ height: 41px;
 width: 141px;
 color: black;
 font-size: 16px;
-font-weight: 100;
+font-weight: 500;
 border-radius: 1px;
 border-width: 1px;
 border-color: #B3BAC1;
 background-color: transparent;
 margin-bottom:233px;
+font-family: Raleway;
 `
 
 const Block2 = () => {

@@ -6,28 +6,32 @@ const Dlyfona = styled.div`
 background-image:url(${fon});
 background-size: cover;
 background-repeat:no-repeat;
-height: 500px;
+height: 600px;
 `
 
 
 const Blocku4 = styled.div`
 text-align:center;
-padding-top:150px;
+padding-top:250px;
 
 `
 const H1 = styled.h1`
-    `
+font-family: Raleway;
+font-weight: 500;
+font-size: 40px;
+`
 const Button = styled.button`
 height: 41px;
 width: 141px;
 color: black;
 font-size: 16px;
-font-weight: 100;
+font-weight: 500;
 border-radius: 1px;
 border-width: 1px;
 border-color: #B3BAC1;
 background-color: transparent;
-margin-top:50px;
+margin-top:40px;
+font-family: Raleway;
 `
 const Block4 = () => {
     return (
@@ -36,7 +40,7 @@ const Block4 = () => {
             <H1>
                 “Мы стремимся сделать уход за кожей доступным<br/>
                  и приятным ритуалом для всех, кто хочет<br/>
-                 заботиться о себе и своем теле”  fdsf
+                 заботиться о себе и своем теле”
             </H1>   
             <Button>Наша история</Button>
       </Blocku4>
