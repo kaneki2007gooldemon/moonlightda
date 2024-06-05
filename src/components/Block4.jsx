@@ -14,11 +14,13 @@ const Blocku4 = styled.div`
 text-align:center;
 padding-top:250px;
 
+
 `
 const H1 = styled.h1`
 font-family: Raleway;
 font-weight: 500;
 font-size: 40px;
+
 `
 const Button = styled.button`
 height: 41px;

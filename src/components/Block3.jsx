@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import fon from '../images/block33.png'
-import font from '../images/fontxtb3.png'
+ 
 
 const Block33 = styled.div`
 display: flex;
@@ -47,15 +47,20 @@ margin-top:45px;
 margin-bottom:240px;
 font-family: Raleway;
 `
+const Fonnn = styled.div`
+
+`
 const Block3 = () => {
   return (
     <Block33>
+      <Fonnn>
         <Blocku3>
             <H1>Индивидуальный уход</H1>
             <P>Не всегда очевидно, какие элементы <br/>и минералы необходимы коже,<br/>         а многочисленные эксперименты<br/>     с разными средствами только<br/> ухудшают ее качество.</P>
             <P2>Заполните анкету, и мы подберем<br/> уход, подходящий именно вам,<br/> учитывая ваш образ жизни, место<br/> жительства и другие факторы. </P2>
             <Button>Заполните анкету</Button>
         </Blocku3>
+      </Fonnn>
         <Img>
         <img
             className='b3k'

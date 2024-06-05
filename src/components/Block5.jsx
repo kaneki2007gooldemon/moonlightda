@@ -15,7 +15,7 @@ padding-top: 140px;
 padding-left: 200px;
 `
 const Textt = styled.div`
-padding-top: 250px;
+padding-top: 275px;
 padding-left: 150px;
 `
 const K1 = styled.div`

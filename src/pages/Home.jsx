@@ -6,6 +6,7 @@ import Block3 from '../components/Block3'
 import Block4 from '../components/Block4'
 import Block5 from '../components/Block5'
 import Block6 from '../components/Block6'
+import Podval from '../components/Podval'
 
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
         <Block4/>
         <Block5/>
         <Block6/>
+        <Podval/>
     </div>
     
   )

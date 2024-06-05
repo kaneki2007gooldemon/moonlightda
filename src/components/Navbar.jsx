@@ -5,6 +5,7 @@ import Vector1 from '../images/Vector2.png'
 import lico from '../images/lico.png'
 import telo from '../images/telo.png'
 import fon from "../images/fon.png"
+// import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 
 
 const Block1 = styled.div`
