@@ -5,8 +5,9 @@ import instagram from '../images/instagram.png'
 import twitter from '../images/twitter.png'
 import fon from '../images/fonb6.png'
 
-const Block66 = styled.div`
-padding-top: 240px;
+
+const Div = styled.div`
+    padding-top: 240px;
 padding-left: 150px;
 padding-bottom: 149px;
 `
@@ -53,12 +54,10 @@ const Img3 = styled.div`
 padding-left:20px;
 margin-bottom:242px; 
 `
-
-
-const Block6 = () => {
+const Katalog4 = () => {
   return (
-    <Block66>
-        <Fonn>
+    <Div>
+       <Fonn>
             <Text>
             <H1>Контакты</H1>
             <H3>Адрес</H3>
@@ -75,12 +74,8 @@ const Block6 = () => {
                     
                 </Img>
         </Fonn>
-    
-          
-
-      
-    </Block66>
+    </Div>
   )
 }
 
-export default Block6
+export default Katalog4
