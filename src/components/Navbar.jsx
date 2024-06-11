@@ -67,7 +67,7 @@ white-space: nowrap;
         color: rgb(0, 0, 0);
     }
 `
-const Img1 = styled.div`
+const Img1 = styled.a`
 padding-left:35px;
 `
 
@@ -115,9 +115,9 @@ const Navbar = () => {
             <Header2>
                 <P1  href="Katalog" >Каталог</P1>
                 <P1  href="Onas" >О нас</P1> 
-                <P1  href="/" >Контакты</P1>
+                <P1  href="Contact" >Контакты</P1>
                 <Img1><img src={Vector} alt=""/></Img1>
-                <Img1><img src={Vector1} alt=""/></Img1>
+                <Img1 href="Korzina"><img src={Vector1} alt=""/></Img1>
             </Header2>
       </Container>
       <Afterheader>

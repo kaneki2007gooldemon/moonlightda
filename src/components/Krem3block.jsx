@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
-import kart1 from '../images/krem1b.png'
+import kart3 from '../images/krem3.png'
 
-const Krem1b = styled.div`
-display:flex;
+const Krem3b = styled.div`
+display: flex;
 `
 const Kartinka = styled.div`
 padding-top: 40px;
@@ -98,13 +98,13 @@ const Ccena = styled.div`
 display: flex;
 `
 
-const Krem1block = () => {
+const Krem3block = () => {
   return (
-    <Krem1b>
+    <Krem3b>
       <Kartinka> 
             <Img
             className='cream'
-            src={kart1}
+            src={kart3}
             alt="крем"
             />
       </Kartinka>
@@ -138,10 +138,8 @@ const Krem1block = () => {
         </Cena>
         </Ccena>
       </Sprava>
-    </Krem1b>
-    
-  
+    </Krem3b>
   )
 }
 
-export default Krem1block
+export default Krem3block

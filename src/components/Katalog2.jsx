@@ -29,7 +29,7 @@ const Main2 = styled.div`
   justify-content:space-around; 
   padding-top:30px;
 `
-const H3 = styled.h3`
+const H3 = styled.a`
   margin-top: 299px;
   margin-left:20px;
   font-family: Raleway;
@@ -91,17 +91,17 @@ const Katalog2 = () => {
       <Main1>
             <Item1>
                     
-                    <H3>High</H3>
+                    <H3 href='Krem1karta'>High</H3>
                     <P>крем для лица</P>
             </Item1>
             <Item2>
                     
-                    <H3>Rest</H3>
+                    <H3 href='Krem2karta'>Rest</H3>
                     <P>минеральная пудра</P>
             </Item2>
             <Item3>
                     
-                    <H3>Rose</H3>
+                    <H3 href='Krem3karta'>Rose</H3>
                     <P>крем для лица</P>
             </Item3>
             <Item5>

@@ -51,6 +51,7 @@ const Posle = styled.div`
 display: flex;
 justify-content: space-between;
 padding-top:22px;
+padding-bottom:22px;
 `
 const P1 = styled.p`
 font-family: Raleway;
@@ -80,7 +81,7 @@ const Podval = () => {
         </Doline>
         <Hr></Hr>
         <Posle>
-          <P1>Maroon 2020 Все права защищены</P1>
+          <P1>Moonlight 2020 Все права защищены</P1>
           <P2>Политика конфиденциальности</P2>
         </Posle>
     </Podvall>

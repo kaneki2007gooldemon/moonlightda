@@ -20,9 +20,9 @@ const Header2 = styled.div`
 const H1 = styled.a`
   font-family: Raleway;
   font-weight: 600;
-  text-decoration:none;
-  font-size: 32px;
+  text-decoration: none;
   color: black;
+  font-size: 32px;
 `
 const P1 = styled.a`
   padding-left:35px;
@@ -55,7 +55,7 @@ const Navbar2 = () => {
             </Header1>
             <Header2>
                 <P1 href="/">На главную</P1>
-                <P1 href='Onas'>О нас</P1>
+                <P1 href='Katalog'>Каталог</P1>
                 <P1>Контакты</P1>
                 <Img1><img src={Vector} alt=""/></Img1>
                 <Img1><img src={Vector1} alt=""/></Img1>

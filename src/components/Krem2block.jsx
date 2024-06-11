@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
-import kart1 from '../images/krem1b.png'
+import kart2 from '../images/krem2.png'
 
-const Krem1b = styled.div`
-display:flex;
+const Krem2b = styled.div`
+display: flex;
 `
 const Kartinka = styled.div`
 padding-top: 40px;
@@ -98,19 +98,19 @@ const Ccena = styled.div`
 display: flex;
 `
 
-const Krem1block = () => {
+const Krem2block = () => {
   return (
-    <Krem1b>
+    <Krem2b>
       <Kartinka> 
             <Img
             className='cream'
-            src={kart1}
+            src={kart2}
             alt="крем"
             />
       </Kartinka>
       <Sprava>
-        <H1>Rose</H1>
-        <P1>крем для лица</P1>
+        <H1>Rest</H1>
+        <P1>минеральная пудра</P1>
         <P2>Увлажняющий крем идеально<br/> подходит для повседневного<br/> ухода за молодой кожей.</P2>
         <P3>Крем равномерно распределяется<br/> по поверхности благодаря легкой<br/> текстуре, обеспечивает глубокое<br/> увлажнение, регенерацию клеток.</P3>
         <Sostav>
@@ -138,10 +138,8 @@ const Krem1block = () => {
         </Cena>
         </Ccena>
       </Sprava>
-    </Krem1b>
-    
-  
+    </Krem2b>
   )
 }
 
-export default Krem1block
+export default Krem2block

@@ -1,15 +1,15 @@
 import React from 'react'
 import Navbar3 from '../components/Navbar3'
-import Onasblock1 from '../components/Onasblock1'
+import Contactblock from '../components/Contactblock'
 import Podval from '../components/Podval'
-const Onas = () => {
+const Contact = () => {
   return (
     <div>
       <Navbar3/>
-      <Onasblock1/>
+      <Contactblock/>
       <Podval/>
     </div>
   )
 }
 
-export default Onas
+export default Contact
