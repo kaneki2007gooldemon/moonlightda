@@ -13,125 +13,97 @@ const Katalog = styled.div`
     
 `
 const H1 = styled.h1`
-    padding-top:48px;
-    text-align: center;
-    font-family: Raleway;
-    font-size: 36px;
-    font-weight: 600;
+padding-top:48px;
+text-align: center;
+font-family: Raleway;
+font-size: 36px;
+font-weight: 600;
 `
 const Main1 = styled.div`
-  display: flex;
-  justify-content:space-around; 
-  padding-top:60px;
+display: flex;
+justify-content:space-around; 
+padding-top:60px;
 `
 const Main2 = styled.div`
-  display: flex;
-  justify-content:space-around; 
-  padding-top:30px;
+display: flex;
+justify-content:space-around; 
+margin-top: 20px;
 `
 const H3 = styled.a`
-  margin-top: 299px;
-  margin-left:20px;
-  font-family: Raleway;
-  font-weight: 600;
-  font-size: 16px;
-`
-const P = styled.p`
 margin-left:20px;
+margin-top:290px;
+font-family: Raleway;
+font-weight: 600;
+font-size: 16px;
+text-decoration:none;
+color:black;
+`
+const P = styled.label`
 font-family: Raleway;
 color:#9A9DA0;
+margin-top:2px;
+margin-left:20px;
 `       
-const Img = styled.div`
-
-`   
+ 
 const Item1 = styled.div`
-background-image: url(${Img1});
 width:270px;
-height: 350px;
+height: 350px ;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+padding-top: 20px;
+display: flex;
+flex-direction: column;
 `
-const Item2 = styled.div`
-  background-image: url(${Img2});
-  width:270px;
-  height: 350px;
-`
-const Item3 = styled.div`
-  background-image: url(${Img3});
-  width:270px;
-  height: 350px;
-`
-const Item4 = styled.div`
-  background-image: url(${Img4});
-  width:270px;
-  height: 350px;
-`
-const Item5 = styled.div`
-  background-image: url(${Img5});
-  width:270px;
-  height: 350px;
-`
-const Item6 = styled.div`
-  background-image: url(${Img6});
-  width:270px;
-  height: 350px;
-`
-const Item7 = styled.div`
-  background-image: url(${Img7});
-  width:270px;
-  height: 350px;
-`
-const Item8 = styled.div`
-  background-image: url(${Img8});
-  width:270px;
-  height: 350px;
-`
+
 const Katalog2 = () => {
   return (
     <Katalog>
       <H1>Каталог</H1>
       <Main1>
-            <Item1>
+            <Item1 style={{ backgroundImage: `url(${Img1})`}}>
                     
                     <H3 href='Krem1karta'>High</H3>
                     <P>крем для лица</P>
             </Item1>
-            <Item2>
+            <Item1 style={{ backgroundImage: `url(${Img2})`}}>
                     
                     <H3 href='Krem2karta'>Rest</H3>
                     <P>минеральная пудра</P>
-            </Item2>
-            <Item3>
+            </Item1>
+            <Item1 style={{ backgroundImage: `url(${Img3})`}}>
                     
                     <H3 href='Krem3karta'>Rose</H3>
                     <P>крем для лица</P>
-            </Item3>
-            <Item5>
+            </Item1>
+            <Item1 style={{ backgroundImage: `url(${Img4})`}}>
                     
-                    <H3>Milk</H3>
+                    <H3 href='Krem4karta'>Milk</H3>
                     <P>масло для тела</P>
-              </Item5>
+              </Item1>
       </Main1>
       <Main2>
       
-              <Item5>
+              <Item1 style={{ backgroundImage: `url(${Img5})`}}>
                     
-                    <H3>Paradise</H3>
+                    <H3 href='Krem5karta'>Paradise</H3>
                     <P>минеральная пудра</P>
-              </Item5>
-              <Item6>
-                    
-                    <H3>Sun</H3>
+              </Item1>
+
+              <Item1 style={{ backgroundImage: `url(${Img6})`}}>
+                    <H3 href='Krem6karta'>Sun</H3>
                     <P>бомбочка для ванны</P>
-              </Item6>
-              <Item7>
+              </Item1>
+              <Item1 style={{ backgroundImage: `url(${Img7})`}}>
                     
-                    <H3>Violet</H3>
+                    <H3 href='Krem7karta'>Violet</H3>
                     <P>крем для лица</P>
-              </Item7>
-              <Item8>
+              </Item1>
+              <Item1 style={{ backgroundImage: `url(${Img8})`}}>
                     
-                    <H3>Clean</H3>
+                    <H3 href='Krem8karta'>Clean</H3>
                     <P>маска для лица</P>
-              </Item8>
+              </Item1>
       </Main2>
 
       

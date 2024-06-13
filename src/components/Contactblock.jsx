@@ -5,7 +5,8 @@ import styled from 'styled-components'
 const Div = styled.div`
 `
 const H1 = styled.h1`
-color: red;
+color: #CCCC33
+;
 text-align: center;
 padding-top: 150px;
 padding-bottom: 300px;

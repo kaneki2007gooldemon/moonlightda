@@ -18,13 +18,18 @@ const Text = styled.div`
     
         
 `
-const H1 = styled.h1`
+const H1 = styled.a`
 font-family:Raleway;
+font-size:32px;
+text-decoration: none;
+color:black;
 `
-const P = styled.p`
+const P = styled.a`
     margin-left:40px;
     padding-top:15px;
     font-family: Raleway;
+    text-decoration: none;
+    color:black;
 `
 const Img = styled.div`
     display: flex;
@@ -65,12 +70,11 @@ const Podval = () => {
   return (
     <Podvall>
         <Doline>
-           <H1>Moonlight</H1>
+           <H1 href='/'>Moonlight</H1>
                 <Text>
-                  <P>Каталог</P>
-                  <P>О нас</P>
-                  <P>Магазины</P>
-                  <P>Контакты</P>
+                  <P href='Katalog'>Каталог</P>
+                  <P href='Onas'>О нас</P>
+                  <P href='Contact'>Контакты</P>
                 </Text>
             <Img>
                     <Img1><img className='facebook' src={facebook} alt=""/></Img1>

@@ -40,6 +40,10 @@ border-color: #B3BAC1;
 background-color: transparent;
 margin-bottom:233px;
 font-family: Raleway;
+&:hover{
+  background-color: #8E9881;
+   color: white;
+} 
 `
 
 const Block2 = () => {

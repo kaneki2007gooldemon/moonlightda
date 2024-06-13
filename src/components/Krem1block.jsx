@@ -93,6 +93,10 @@ background-color: transparent;
 margin-top:45px;
 margin-bottom:240px;
 font-family: Raleway;
+&:hover{
+  background-color: black;
+  color:white;
+}
 `
 const Ccena = styled.div`
 display: flex;

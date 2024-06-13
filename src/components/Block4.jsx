@@ -34,6 +34,10 @@ border-color: #B3BAC1;
 background-color: transparent;
 margin-top:40px;
 font-family: Raleway;
+&:hover{
+  background-color: #DBAF6A;
+  color: white;
+}
 `
 const Block4 = () => {
     return (

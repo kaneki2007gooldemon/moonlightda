@@ -5,6 +5,7 @@ import Vector1 from '../images/Vector2.png'
 import lico from '../images/lico.png'
 import telo from '../images/telo.png'
 import fon from "../images/fon.png"
+import 'animate.css';
 // import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 
 
@@ -86,6 +87,10 @@ border-width: 1px;
 border-color: #B3BAC1;
 background-color: transparent;
 margin-top: 40px;
+&:hover{
+  background-color: #8E9881;
+  color: white;
+}
 `
 const H2 = styled.h2`
 padding-top: 35px;

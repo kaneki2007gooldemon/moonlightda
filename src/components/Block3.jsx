@@ -46,6 +46,10 @@ background-color: transparent;
 margin-top:45px;
 margin-bottom:240px;
 font-family: Raleway;
+&:hover{
+  background-color: #8E9881;
+  color: white;
+}
 `
 const Fonnn = styled.div`
 

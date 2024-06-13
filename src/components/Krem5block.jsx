@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import kart2 from '../images/krem2.png'
+import kart from '../images/img5.png'
 
 const Krem2b = styled.div`
 display: flex;
@@ -103,18 +103,18 @@ const Ccena = styled.div`
 display: flex;
 `
 
-const Krem2block = () => {
+const Krem5block = () => {
   return (
     <Krem2b>
       <Kartinka> 
             <Img
             className='cream'
-            src={kart2}
+            src={kart}
             alt="крем"
             />
       </Kartinka>
       <Sprava>
-        <H1>Rest</H1>
+        <H1>Paradise</H1>
         <P1>минеральная пудра</P1>
         <P2>Увлажняющий крем идеально<br/> подходит для повседневного<br/> ухода за молодой кожей.</P2>
         <P3>Крем равномерно распределяется<br/> по поверхности благодаря легкой<br/> текстуре, обеспечивает глубокое<br/> увлажнение, регенерацию клеток.</P3>
@@ -147,4 +147,4 @@ const Krem2block = () => {
   )
 }
 
-export default Krem2block
+export default Krem5block

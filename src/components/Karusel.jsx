@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import cream1 from "../images/cream1.png"
 import cream2 from "../images/cream2.png"
 import cream3 from "../images/cream3.png"
-import cream4 from "../images/cream4.png"
+import cream4 from "../images/kreem4.png"
 const Text = styled.div`
 padding-left:120px;
 
@@ -35,6 +35,10 @@ border-color: #B3BAC1;
 background-color: transparent;
 margin-bottom:233px;
 font-family: Raleway;  
+&:hover{
+  background-color: #8E9881;
+  color: white;
+}
 `
 const Blockkarusel = styled.div`
 display: flex;

@@ -46,6 +46,10 @@ border-radius: 1px;
 border-width: 1px;
 border-color: #B3BAC1;
 background-color: transparent;
+&:hover{
+  background-color: #8E9881;
+  color: white;
+} 
 `
 const Block5 = () => {
   return (

@@ -1,7 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
-import kart from '../images/korzinki.png'
+import karzina from '../images/karzina.png'
 const Block111 = styled.div`
+text-align: center;
+
 `
 
 const KorzinaBlock1 = () => {
@@ -9,7 +11,7 @@ const KorzinaBlock1 = () => {
     <Block111>
       <img
             className='d'
-            src={kart}
+            src={karzina}
             alt="крем"
             />
     </Block111>

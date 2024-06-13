@@ -33,7 +33,8 @@ const P3 = styled.p`
 padding-top:15px;
 `
 const Img = styled.img`
-width: 750px;
+width:630px;
+height:740px;
  
 `
 const Sostav = styled.div`
@@ -93,6 +94,10 @@ background-color: transparent;
 margin-top:45px;
 margin-bottom:240px;
 font-family: Raleway;
+&:hover{
+  background-color: black;
+  color:white;
+}
 `
 const Ccena = styled.div`
 display: flex;
